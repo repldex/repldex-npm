@@ -1,4 +1,4 @@
 export class Client {
-  // Native
-  public getEntry(name: string): Promise<unknown>;
+	// Native
+	public entry(entry: string): Promise<unknown>;
 }
