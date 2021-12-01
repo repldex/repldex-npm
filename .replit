@@ -1,1 +1,1 @@
-un = "node tests/test.js"
+run = "node tests/test.js"

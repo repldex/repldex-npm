@@ -1,6 +1,6 @@
 const index = require("../index.js");
 const client = new index();
 
-client.entry("vfdvvf").then((info) => {
+client.entry("selectthegang").then((info) => {
 	console.log(info);
 });
