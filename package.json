@@ -1,8 +1,15 @@
 {
-  "name": "repldex",
-  "version": "0.0.1",
+  "name": "@repldex/api",
+  "version": "0.1.0",
   "description": "Repldex is the unofficial community-editable encyclopedia of user created entries for the [Replit Discord Server](https://replit.com/discord).",
   "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,8 +22,5 @@
   "bugs": {
     "url": "https://github.com/repldex/repldex-npm/issues"
   },
-  "homepage": "https://github.com/repldex/repldex-npm",
-  "dependencies": {
-    "node-fetch": "^2.6.0"
-  }
+  "homepage": "https://github.com/repldex/repldex-npm#readme"
 }
