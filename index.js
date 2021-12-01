@@ -14,6 +14,20 @@ class Client {
 		
 		return i;
 	}
+
+	/**
+	 * Fetch a single entry about a certain Discord user
+	 * @param {String} owner_id The Discord ID of the user whose entry you want to get.
+	 */
+	async selfentry(owner_id) {
+		let i = await fetch(`https://repldex.com/api/selfentry/${owner_id}`).then((res) => { 
+    		return res.json();
+  		}).catch((err) => {
+			throw new Error(err);
+		});
+		
+		return i;
+	}
 }
 
 module.exports = Client;
