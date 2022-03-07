@@ -22,7 +22,7 @@ class Client {
 	 * @param {Number} limit How many entries will be returned per page.
 	 * @param {String} search_query The search query. This can either be the title, the id, or a fuzzy match for the title and content.
 	 */
-	async entries(sort, page, limit, search_query) {
+	async fetchEntries(sort, page, limit, search_query) {
 		// my arms hurt from typing so much
 	}
 
