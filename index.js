@@ -16,6 +16,17 @@ class Client {
 	}
 
 	/**
+	 * Fetch several entries
+	 * @param {String} sort This either can be 'last_edited' or 'relevant'
+	 * @param {Number} page The page number that you want to get the entries for. This is "0" indexed.
+	 * @param {Number} limit How many entries will be returned per page.
+	 * @param {String} search_query The search query. This can either be the title, the id, or a fuzzy match for the title and content.
+	 */
+	async entries(sort, page, limit, search_query) {
+		// my arms hurt from typing so much
+	}
+
+	/**
 	 * Fetch a single entry about a certain Discord user
 	 * @param {String} owner_id The Discord ID of the user whose entry you want to get.
 	 */
